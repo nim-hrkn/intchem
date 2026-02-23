@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "intchem"
+version = "0.1.0"
+description = "Integer chemistry composition enumeration"
+authors = [{name="Hiori Kino"}]
+dependencies = [
+    "pymatgen",
+    "pandas",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
