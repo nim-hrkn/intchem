@@ -10,7 +10,14 @@ authors = [{name="Hiori Kino"}]
 dependencies = [
     "pymatgen",
     "pandas",
+    "pytest",
 ]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
