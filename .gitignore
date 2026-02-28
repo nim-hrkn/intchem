@@ -19,7 +19,6 @@ dist/
 venv/
 env/
 torch/
-intchem/
 conda-meta/
 
 # Pytest
