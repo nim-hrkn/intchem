@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "intchem"
-version = "0.2.0"
+version = "0.2.1"
 description = "Integer chemistry composition enumeration"
 authors = [{name="Hiori Kino"}]
 dependencies = [
